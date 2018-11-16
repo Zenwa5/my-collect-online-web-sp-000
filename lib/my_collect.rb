@@ -10,4 +10,4 @@ def my_collect(empty_array)
   collection
 end
 
-my_collect(empty_array) {|name| name   }
+my_collect(empty_array) {|name| name.upcase   }
