@@ -6,6 +6,7 @@ def my_collect(empty_array)
     yield empty_array[i]
       i += 1
   end
+  empty_array.upcase
 end
 
 my_collect(empty_array) {|name| i.upcase}
