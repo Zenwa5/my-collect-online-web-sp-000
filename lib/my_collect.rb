@@ -4,9 +4,10 @@ def my_collect(empty_array)
   i = 0
   while empty_array.length > i
     yield empty_array[i]
+    array.pop
       i += 1
   end
-  name
+  empty_array
 end
 
 my_collect(empty_array) {|name| name.upcase  }
