@@ -8,4 +8,4 @@ def my_collect(empty_array)
   end
 end
 
-my_collect {|name|}
+my_collect(empty_array) {|name|}
